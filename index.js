@@ -19,8 +19,12 @@ function destructivelyRemoveLastKitten() {
 }
 
 // removes the first kitten from the kittens array (mutate)
-
 function destructivelyRemoveFristKitten() {
   kittens.shift();
   return kittens;
+}
+
+// appends a kitten array and returns a new array, leaving the kittens array unchanged
+function appendKitten(name) {
+  
 }
