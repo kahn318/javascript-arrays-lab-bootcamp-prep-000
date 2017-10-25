@@ -28,3 +28,8 @@ function destructivelyRemoveFristKitten() {
 function appendKitten(name) {
   return [...kittens, name];
 }
+
+// prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
+function prependKitten(name) {
+  return [name, ...kittens];
+}
