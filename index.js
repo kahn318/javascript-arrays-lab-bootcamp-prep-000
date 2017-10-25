@@ -19,7 +19,7 @@ function destructivelyRemoveLastKitten() {
 }
 
 // removes the first kitten from the kittens array (mutate)
-function destructivelyRemoveFristKitten() {
+function destructivelyRemoveFirstKitten() {
   kittens.shift();
   return kittens;
 }
