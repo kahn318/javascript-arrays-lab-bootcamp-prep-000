@@ -26,5 +26,5 @@ function destructivelyRemoveFristKitten() {
 
 // appends a kitten array and returns a new array, leaving the kittens array unchanged
 function appendKitten(name) {
-  
+  return [...kittens, name];
 }
