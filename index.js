@@ -6,14 +6,21 @@ function destructivelyAppendKitten(name) {
   return kittens;
 }
 
-// prepends a kitten to the beginning of the kittens array
+// prepends a kitten to the beginning of the kittens array (mutate)
 function destructivelyPrependKitten(name) {
   kittens.unshift(name);
   return kittens;
 }
 
-// removes the last kitten from the kittens array
+// removes the last kitten from the kittens array (mutate)
 function destructivelyRemoveLastKitten() {
   kittens.pop();
+  return kittens;
+}
+
+// removes the first kitten from the kittens array (mutate)
+
+function destructivelyRemoveFristKitten() {
+  kittens.shift();
   return kittens;
 }
