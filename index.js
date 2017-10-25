@@ -33,3 +33,5 @@ function appendKitten(name) {
 function prependKitten(name) {
   return [name, ...kittens];
 }
+
+// removes the last kitten in the kittens array and returns a new array, leaving the array unchanged
